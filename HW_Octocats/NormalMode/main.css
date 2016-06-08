@@ -36,6 +36,10 @@ span.image-number {
   font-weight: bold;
 }
 
+span.image-number:before {
+  content: "#";
+}
+
 div.image-caption {
   position: relative;
   float: right;
@@ -77,6 +81,7 @@ ul.authors li a img {
   border-radius: 5px;
 }
 
+
 li.octocat a img {
   width: 100%;
   border: solid rgb(226, 226, 226) 1px;
@@ -86,8 +91,3 @@ li.octocat a img {
 a {
   text-decoration: none;
 }
-
-
-
-
-
